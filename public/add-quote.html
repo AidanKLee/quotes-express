@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <title>Quote API</title>
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon"ç href="favicon.ico">
+</head>
+<body>
+  <h1>Quote API</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="add-quote.html">Add a New Quote</a>
+  </nav>
+  <h2>Add a New Quote</h2>
+  <div class="inputs">
+    <label for="quote">Quote text: *</label>
+    <textarea id="quote" value="" placeholder="When you feel like quitting think about why you started." required></textarea>
+    <label for="person">Person: *</label>
+    <input id="person" value="" placeholder="Anonymous" required>
+    <label for="year">Year:</label>
+    <input id="year" value="" placeholder="2012">
+  </div>
+  <div>
+    <button id="submit-quote">Submit Your Quote</button>
+  </div>
+  <div id="new-quote">
+    
+  </div>
+  <div id="quote-container">
+    
+  </div>
+  <script src="add-quote.js"></script>
+</body>
+</html>
